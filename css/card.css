@@ -1,0 +1,71 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.2vmax;
+  width: 50vw;
+  background-color: #fff3e4;
+  border-radius: 8%;
+  margin: 2.5vh;
+}
+.card:hover {
+  box-shadow: 0.8vmin 0.8vmin 0.8vmin rgba(0, 0, 0, 10%);
+}
+.card-title {
+  color: #483434;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  color: #6b4f4f;
+  text-align: center;
+  padding: 2%;
+  justify-content: space-evenly;
+  width: 90%;
+}
+.card-content.hobbies > ol {
+  padding: 0;
+}
+.card-content.skills > .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 2%;
+}
+.card-content.skills {
+  flex-direction: row;
+}
+@media screen and (max-width: 1024px) {
+  .card {
+    font-size: 1.8vmax;
+    width: 70vw;
+    border-radius: 8%;
+    margin: 2.5vh;
+  }
+  .card-content {
+    padding: 3%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card {
+    font-size: 1.8vmax;
+    width: 70vw;
+    border-radius: 8%;
+    margin: 2.5vh;
+  }
+  .card-content {
+    padding: 3%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .card {
+    font-size: 1.6vmax;
+    width: 80vw;
+    border-radius: 8%;
+    margin: 2.5vh;
+  }
+  .card-content {
+    padding: 3%;
+  }
+}

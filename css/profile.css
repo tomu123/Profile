@@ -1,0 +1,63 @@
+.title {
+  font-family: "Cute Font", cursive;
+  color: #483434;
+}
+.box-title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  margin-bottom: 1.5vh;
+}
+.box-presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.2vmax;
+  color: #6b4f4f;
+  padding-left: 2%;
+}
+.profile-picture {
+  height: 10vw;
+}
+@media screen and (max-width: 1024px) {
+  .box-title {
+    width: 70vw;
+    margin-bottom: 1.5vh;
+  }
+  .box-presentation {
+    font-size: 1.8vmax;
+    padding-left: 3%;
+  }
+  .profile-picture {
+    height: 20vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .box-title {
+    width: 70vw;
+    margin-bottom: 1.5vh;
+  }
+  .box-presentation {
+    font-size: 1.8vmax;
+    padding-left: 3%;
+  }
+  .profile-picture {
+    height: 20vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .box-title {
+    width: 70vw;
+    margin-bottom: 1.5vh;
+  }
+  .box-presentation {
+    font-size: 1.6vmax;
+    padding-left: 3%;
+  }
+  .profile-picture {
+    height: 26vw;
+  }
+}

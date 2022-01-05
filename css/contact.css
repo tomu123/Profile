@@ -1,0 +1,36 @@
+.contact-box {
+  display: flex;
+  justify-content: space-between;
+  width: 20vw;
+  height: 3.5vmax;
+}
+.social-media {
+  font-size: 3.5vmax;
+}
+.social-media:hover {
+  font-size: calc(1.5 * 3.5vmax);
+}
+@media screen and (max-width: 1024px) {
+  .contact-box {
+    width: 32vw;
+    height: 5vmax;
+  }
+  .social-media {
+    font-size: 5vmax;
+  }
+  .social-media:hover {
+    font-size: calc(150% * 5vmax);
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact-box {
+    width: 32vw;
+    height: 4.2vmax;
+  }
+  .social-media {
+    font-size: 4.2vmax;
+  }
+  .social-media:hover {
+    font-size: calc(150% * 4.2vmax);
+  }
+}
